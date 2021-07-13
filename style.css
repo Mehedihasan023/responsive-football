@@ -56,3 +56,35 @@ body {
   width: 556.01px;
   height: 438px;
 }
+/* --------------------------
+  top players styles 
+  ---------------------------*/
+.players {
+  margin-top: 70px;
+  margin-left: 179px;
+  margin-right: 210px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 25px;
+}
+.player {
+  width: 430px;
+  height: 574px;
+  margin-bottom: 20px;
+  border: 0.5px #d1d1d1;
+  padding-top: 5px;
+  padding-left: 3px;
+  padding-right: 5px;
+  padding-bottom: 4px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.thumbnail {
+  margin-top: 5px;
+  margin-left: 14px;
+  width: 400px;
+  height: 256px;
+}
+.player-title {
+  margin-left: 10px;
+  margin-right: 5px;
+}
