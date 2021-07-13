@@ -88,3 +88,32 @@ body {
   margin-left: 10px;
   margin-right: 5px;
 }
+/*----------------------
+ buttom part styles 
+ -------------------------*/
+.social-media-part {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.media {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.media-logo {
+  width: 483.87px;
+  height: 110px;
+}
+#social-icon {
+  background: #969bab8e;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 14px;
+}
+
+footer {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400px;
+}
