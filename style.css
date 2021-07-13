@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
 body {
+  margin: 0;
   font-family: "Poppins", sans-serif;
 }
 /* top part */
@@ -116,4 +117,68 @@ footer {
   color: #000000;
   font-size: 18px;
   font-weight: 400px;
+}
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+  .top-section {
+    display: block;
+    justify-content: row;
+    background-color: #2d25a0;
+  }
+  .top-banner-left {
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .copa-america {
+    color: #ffffff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .top-section:hover .banner {
+    transition: 1.5s ease-in;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .banner {
+    width: 90%;
+    height: 100%;
+  }
+
+  .players {
+    margin-top: 70px;
+    margin-left: 14px;
+    margin-right: 13px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 2px;
+  }
+  .player {
+    width: 100%;
+    height: 100%px;
+    margin-bottom: 20px;
+    border: 0.5px #d1d1d1;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  }
+  .player-title {
+    font-size: smaller;
+    margin-left: 4px;
+    margin-right: 2px;
+  }
+  .thumbnail {
+    margin-top: 12px;
+    margin-left: 12px;
+    width: 290px;
+    height: 240px;
+  }
+
+  .media-logo {
+    width: 80%;
+  }
+  .media {
+    width: 100%;
+  }
 }
