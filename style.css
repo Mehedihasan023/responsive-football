@@ -1,0 +1,58 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* top part */
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  background-color: #2d25a0;
+}
+.top-section:hover .banner {
+  transition: 1.5s ease-in;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.banner {
+  margin-top: 70px;
+  position: relative;
+}
+.top-banner-left {
+  position: relative;
+  margin-bottom: 150px;
+  margin-top: 30px;
+  margin-right: 320px;
+}
+.copa-america {
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+}
+.watch-live {
+  display: flex;
+  align-items: center;
+  width: 168px;
+  height: 39px;
+  color: #ffffff;
+  background: #e02c6d;
+}
+.watch-live-info {
+  margin-left: 22px;
+  margin-right: 6px;
+  font-weight: 16px;
+}
+.fas-fa-arrow-right {
+  margin-left: 4px;
+  width: 24px;
+  height: 24px;
+}
+.top-banner {
+}
+.banner {
+  width: 556.01px;
+  height: 438px;
+}
